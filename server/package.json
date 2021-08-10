@@ -1,14 +1,13 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "start": "nodemon index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Jacky Lin",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
@@ -17,5 +16,15 @@
     "express": "^4.17.1",
     "mongoose": "^5.13.5",
     "nodemon": "^2.0.12"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JackyLin2/RecollectionBackEnd.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JackyLin2/RecollectionBackEnd/issues"
+  },
+  "homepage": "https://github.com/JackyLin2/RecollectionBackEnd#readme",
+  "description": ""
 }
